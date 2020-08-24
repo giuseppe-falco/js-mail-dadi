@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1{
+    text-align:center;
+    margin-top: 50px;
+}
+
+h3{
+    text-align: center;
+    padding-top:20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    padding-top: 100px;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    background-color:red;
+}
+
+.box>p{
+    text-align: center;
+}
+
+.box>p>span{
+    font-size:50px;
+
+}
+#boxPlayer{
+    background-color:blue;
+}
+
+#winnerBox {
+    margin-top:50px;
+    margin-left: calc(100% / 2 - 150px)
+}
+
+.winnerGreen{
+    background-color: green;
+}
+
+.winnerOrange{
+    background-color:orange;
+}
+
+#winner{
+    font-size: 25px;
+    margin-top:80px;
+}
