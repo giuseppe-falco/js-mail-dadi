@@ -53,3 +53,10 @@ h3{
     font-size: 25px;
     margin-top:80px;
 }
+
+button{
+    width: 200px;
+    margin-left:calc(100% / 2 - 100px);
+    margin-top: 60px;
+    font-size:20px;
+}
